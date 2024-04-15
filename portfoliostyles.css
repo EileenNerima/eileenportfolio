@@ -1,0 +1,182 @@
+@media(prefers-reduced-motion){
+	scroll-behavior:smooth;
+}
+:root{
+--active-color: blueviolet;
+}
+
+body{
+	font-family: Snell Roundhand, cursive;
+
+}
+#welcome-section{
+	width: 100%;
+	height:100vh;
+	background-color: #152238;
+	padding-top: 200px;
+	}
+h1, p{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-weight: normal;
+}
+#projects{
+	width: calc(100% - 20px);
+	height: auto;
+	background-color: #818589;
+	padding: 10px 10px 40px 10px;
+}
+#projects .project-tile{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	margin-top: 30px;
+}
+
+#projects .project-tile .backg{
+	background-image: url('images/butterfly1.jpg');
+	width: 300px;
+	height: 250px;
+	background-size: contain;
+}
+#projects .project-tile .backg1{
+	background-image: url('images/toystory.jpeg');
+	width: 300px;
+	height: 250px;
+	background-size: contain;
+}
+#projects .project-tile .backg2{
+	background-image: url('images/dogimage2.jpg');
+	width: 300px;
+	height: 250px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#projects .project-tile .backg3{
+	background-image: url('images/salonimage.jpg');
+	width: 300px;
+	height: 250px;
+	background-size: contain;
+}
+#projects .project-tile .backg4{
+	background-image: url('images/bamburi.jpg');
+	width: 300px;
+	height: 250px;
+	background-size: contain;
+}
+#projects .project-tile .backg5{
+	background-image: url('images/tributepic.jpg');
+	width: 300px;
+	height: 250px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#projects .project-tile .backg6{
+	background-image: url('images/arduino.jpg');
+	width: 300px;
+	height: 250px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#projects .project-tile .backg7{
+	background-image: url('images/counter.png');
+	width: 300px;
+	height: 250px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.project-tile .title p{
+	font-size: 18px;
+	color: lightslategray;
+}
+.project-tile .title p a{
+	text-decoration: none;
+	color: darkslategray;
+}
+.project-tile .title p a:hover{
+	color: orangered;
+}
+.project-tile .title p a:active{
+	color: blueviolet;
+}
+#parpro{
+	text-align: center;
+	margin-top: 0;
+	padding-top: 20px;
+	font-size: 32px;
+	
+}
+#profile{
+	width: calc(100% - 20px);
+	height:100vh;
+	background-color: #152238;
+	vertical-align: middle;
+	padding-top: 200px;
+	margin-bottom: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+hr{
+	margin-top: 0;
+}
+ul:not(#navend){
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+	padding-bottom: 80px;
+	justify-content:center;
+}
+ul > li > a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+}
+ul > li > a:hover{
+	color: black;
+}
+ul > li > a:active{
+	color: var(--active-color);
+}
+#foot{
+	width: 100%;
+	height: 100px;
+	background-color: #818589;
+	padding: 30px;
+	margin-top: 0;
+}
+#note{
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+#nav-bar{
+	background-color:#203354;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+#navend{
+	display: flex;
+	list-style-type: none;
+	color: white;
+	justify-content: flex-end;
+	padding-right: 30px;
+}
+#nav-bar #navend li a{
+	text-align: center;
+	padding: 20px 20px;
+}
+#nav-bar #navend li a:hover{
+	color: black;
+}
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
